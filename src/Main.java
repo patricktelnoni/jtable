@@ -7,6 +7,7 @@ public class Main {
         Persegi persegi     = new Persegi();
 
         lingkaran.hitungluas(5);
+        System.out.println("Hasil perhitungan luas lingkaran adalah " + lingkaran.getLuas());
         persegi.hitungluas(5);
     }
 }
